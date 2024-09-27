@@ -23,7 +23,7 @@ public:
     }
 
     // 方法4: 移动构造函数
-    MyObject(MyObject&& other) {
+    MyObject(MyObject&& other) noexcept {
         printf("创建移动构造函数 -- %p, from %p\n", this, &other);
         index_ = other.index_;
         other.index_ = 0;

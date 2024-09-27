@@ -13,8 +13,8 @@ if [ -d "$BUILD_DIR" ]; then
     rm -rf "$BUILD_DIR"
 fi
 
-cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE
-# cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET=test1
+# cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET=test4_1
 
 cmake --build "$BUILD_DIR"
 
