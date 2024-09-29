@@ -14,7 +14,7 @@ if [ -d "$BUILD_DIR" ]; then
 fi
 
 # cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE
-cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET=test4_1
+cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET=test7_5
 
 cmake --build "$BUILD_DIR"
 
