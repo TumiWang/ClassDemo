@@ -31,7 +31,7 @@
 *.out
 *.app
 
-
 .ds_store
+.vscode/
 product/
 build/
