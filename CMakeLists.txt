@@ -5,6 +5,9 @@ project(test)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD 17)
 
+# 关闭函数返回值优化
+# add_compile_options("-fno-elide-constructors")
+
 macro(product_target)
     add_executable(${ARGV0} source/${ARGV0}.cpp)
     install(TARGETS ${ARGV0})
