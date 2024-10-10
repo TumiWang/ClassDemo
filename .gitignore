@@ -35,3 +35,5 @@
 .vscode/
 product/
 build/
+
+!.vscode/launch.json
