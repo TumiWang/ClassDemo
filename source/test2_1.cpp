@@ -1,6 +1,6 @@
-#include <stdio.h>
-
+#include <cstdio>
 #include <cstring>
+#include <memory>
 
 class MyObject
 {
