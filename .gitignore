@@ -35,6 +35,7 @@
 .vscode/
 product/
 build/
+local/
 
 !.vscode/launch.json
 *.afphoto~lock~
