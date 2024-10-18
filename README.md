@@ -64,5 +64,13 @@ source/test12_*.cpp
 source/test13_*.cpp
 
 ### 2024年11月03日 星期日
-函数地址
+C++之整数类型
 source/test14_*.cpp
+
+### 2024年11月05日 星期二
+C++类型转换之const_cast
+source/test15_*.cpp
+
+### 不确定
+函数地址
+source/test119_*.cpp
