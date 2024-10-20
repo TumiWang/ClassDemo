@@ -8,6 +8,15 @@ set(CMAKE_CXX_STANDARD 17)
 # 关闭函数返回值优化
 # add_compile_options("-fno-elide-constructors")
 
+if(MSVC)
+    # msvc编译时，默认适用本地编码。但代码实际使用的是Utf-8
+    # 为了避免这个问题，强制msvc适用utf-8编码
+    add_compile_options(/utf-8)
+
+    # 使用静态库
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+endif()
+
 set(SOURCE_TYPE_NAME .c .cc .cpp)
 
 macro(product_target)
