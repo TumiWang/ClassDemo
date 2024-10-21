@@ -12,12 +12,12 @@ public:
 
     // 有参构造函数
     MyObject(char* buff, size_t buff_size): buff_(buff), buff_size_(buff_size) {
-        printf("创建有参构造函数1 -- %p, buff:%p size:%ld\n", this, buff_, buff_size_);
+        printf("创建有参构造函数1 -- %p, buff:%p size:%zd\n", this, buff_, buff_size_);
     }
 
     // 有参构造函数
     MyObject(size_t buff_size): buff_(new char[buff_size]), buff_size_(buff_size) {
-        printf("创建有参构造函数2 -- %p, buff:%p size:%ld\n", this, buff_, buff_size_);
+        printf("创建有参构造函数2 -- %p, buff:%p size:%zd\n", this, buff_, buff_size_);
     }
 
     // 拷贝构造函数
@@ -25,7 +25,7 @@ public:
         buff_size_ = other.buff_size_;
         buff_ = new char[buff_size_];
         memcpy(buff_, other.buff_, buff_size_);
-        printf("创建拷贝构造函数 -- %p, buff:%p size:%ld, from %p\n", this, buff_, buff_size_, &other);
+        printf("创建拷贝构造函数 -- %p, buff:%p size:%zd, from %p\n", this, buff_, buff_size_, &other);
     }
 
     // 移动构造函数
@@ -34,12 +34,12 @@ public:
         buff_size_ = other.buff_size_;
         other.buff_ = nullptr;
         other.buff_size_ = 0;
-        printf("创建移动构造函数 -- %p, buff:%p size:%ld, from %p\n", this, buff_, buff_size_, &other);
+        printf("创建移动构造函数 -- %p, buff:%p size:%zd, from %p\n", this, buff_, buff_size_, &other);
     }
 
     // 析构函数
     ~MyObject() {
-        printf("析构函数 -- %pp, buff:%p size:%ld\n", this, buff_, buff_size_);
+        printf("析构函数 -- %pp, buff:%p size:%zd\n", this, buff_, buff_size_);
         if (buff_) {
             delete[] buff_;
             buff_ = nullptr;
@@ -55,7 +55,7 @@ public:
         buff_size_ = other.buff_size_;
         buff_ = new char[buff_size_];
         memcpy(buff_, other.buff_, buff_size_);
-        printf("拷贝绑定操作 -- %p, buff:%p size:%ld, from %p\n", this, buff_, buff_size_, &other);
+        printf("拷贝绑定操作 -- %p, buff:%p size:%zd, from %p\n", this, buff_, buff_size_, &other);
         return *this;
     }
 
@@ -69,7 +69,7 @@ public:
         buff_size_ = other.buff_size_;
         other.buff_ = nullptr;
         other.buff_size_ = 0;
-        printf("移动绑定操作 -- %p, buff:%p size:%ld, from %p\n", this, buff_, buff_size_, &other);
+        printf("移动绑定操作 -- %p, buff:%p size:%zd, from %p\n", this, buff_, buff_size_, &other);
         return *this;
     }
 

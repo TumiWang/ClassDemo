@@ -113,9 +113,9 @@ int main()
     printf("\n场景5:\n");
     {
         std::vector<MyObject> items(2);
-        printf("Items size:%ld capacity:%ld\n", items.size(), items.capacity());
+        printf("Items size:%zd capacity:%zd\n", items.size(), items.capacity());
         items.reserve(4);
-        printf("Items size:%ld capacity:%ld\n", items.size(), items.capacity());
+        printf("Items size:%zd capacity:%zd\n", items.size(), items.capacity());
     }
     printf("\n场景6:\n");
     {

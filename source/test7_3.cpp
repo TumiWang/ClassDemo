@@ -98,32 +98,32 @@ public:
 
 int main()
 {
-    printf("Size of MyStructType1: %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyStructType1: %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyStructType1),
         OffsetOfStruct(MyStructType1, a), OffsetOfStruct(MyStructType1, b));
-    printf("Size of MyStructType2: %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyStructType2: %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyStructType2),
         OffsetOfStruct(MyStructType2, a), OffsetOfStruct(MyStructType2, b));
-    printf("Size of MyStructType3: %ld, offset of a: %ld, offset of b: %ld, offset of c: %ld\n",
+    printf("Size of MyStructType3: %zd, offset of a: %zd, offset of b: %zd, offset of c: %zd\n",
         sizeof(MyStructType3),
         OffsetOfStruct(MyStructType3, a), OffsetOfStruct(MyStructType3, b), OffsetOfStruct(MyStructType3, c));
 
-    printf("Size of MyClassType1:  %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyClassType1:  %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyClassType1),
         OffsetOfStruct(MyClassType1, a), OffsetOfStruct(MyClassType1, b));
-    printf("Size of MyClassType2:  %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyClassType2:  %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyClassType2),
         OffsetOfStruct(MyClassType2, a), OffsetOfStruct(MyClassType2, b));
-    printf("Size of MyClassType3: %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyClassType3: %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyClassType3),
         OffsetOfStruct(MyClassType3, a), OffsetOfStruct(MyClassType3, b));
-    printf("Size of MyClassType4: %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyClassType4: %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyClassType4),
         OffsetOfStruct(MyClassType4, a), OffsetOfStruct(MyClassType4, b));
-    printf("Size of MyClassType5: %ld, offset of a: %ld, offset of b: %ld\n",
+    printf("Size of MyClassType5: %zd, offset of a: %zd, offset of b: %zd\n",
         sizeof(MyClassType5),
         OffsetOfStruct(MyClassType5, a), OffsetOfStruct(MyClassType5, b));
-    printf("Size of MyClassType6: %ld, offset of a: %ld, offset of b: %ld, offset of c: %ld\n",
+    printf("Size of MyClassType6: %zd, offset of a: %zd, offset of b: %zd, offset of c: %zd\n",
         sizeof(MyClassType6),
         OffsetOfStruct(MyClassType6, a), OffsetOfStruct(MyClassType6, b), OffsetOfStruct(MyClassType6, c));
 }

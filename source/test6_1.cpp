@@ -24,6 +24,6 @@ public:
 
 int main()
 {
-    printf("Offset of A::index_ is %ld\n", OffsetOfStruct(A, index_));
-    printf("Offset of B::index_ is %ld\n", OffsetOfStruct(B, index_));
+    printf("Offset of A::index_ is %zd\n", OffsetOfStruct(A, index_));
+    printf("Offset of B::index_ is %zd\n", OffsetOfStruct(B, index_));
 }
