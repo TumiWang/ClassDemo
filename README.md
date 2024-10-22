@@ -71,6 +71,14 @@ source/test14_*.cpp
 C++类型转换之const_cast
 source/test15_*.cpp
 
+### 2024年11月07日 星期二
+C++类型转换之reinterpret_cast
+source/test16_*.cpp
+
+### 2024年11月10日 星期日
+C++类型转换之dynamic_cast
+source/test17_*.cpp
+
 ### 不确定
 函数地址
 source/test119_*.cpp
