@@ -79,6 +79,10 @@ source/test16_*.cpp
 C++类型转换之dynamic_cast
 source/test17_*.cpp
 
+### 2024年11月12日 星期二
+C++模板篇之模板入门
+source/test18_*.cpp
+
 ### 不确定
 函数地址
 source/test119_*.cpp
