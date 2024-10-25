@@ -83,6 +83,18 @@ source/test17_*.cpp
 C++模板篇之模板入门
 source/test18_*.cpp
 
+### 2024年11月14日 星期四
+C++模板篇之模板参数种类
+source/test19_*.cpp
+
+### 2024年11月17日 星期日
+C++模板篇之模板参数包
+source/test20_*.cpp
+
+### 2024年11月19日 星期二
+C++模板篇之模板进阶
+source/test21_*.cpp
+
 ### 不确定
 函数地址
 source/test119_*.cpp
