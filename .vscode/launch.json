@@ -41,6 +41,18 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "windows msvc debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/product/bin/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "console": "externalTerminal"
         }
     ]
 }
