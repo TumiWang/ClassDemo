@@ -95,6 +95,23 @@ source/test20_*.cpp
 C++模板篇之模板进阶
 source/test21_*.cpp
 
+### 2024年11月21日 星期四
+C++类型概念基础之声明周期修饰？
+source/test22_*.cpp
+https://en.cppreference.com/w/cpp/language/storage_duration
+
+### 2024年11月23日 星期日
+C++类型概念基础之CV限定
+source/test23_*.cpp
+https://en.cppreference.com/w/cpp/language/cv
+
 ### 不确定
 函数地址
 source/test119_*.cpp
+
+C++类型概念基础之类型综述
+https://en.cppreference.com/w/cpp/language/value_category
+
+什么是表达式
+
+表达式的初始化
