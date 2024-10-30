@@ -96,18 +96,26 @@ C++模板篇之模板进阶
 source/test21_*.cpp
 
 ### 2024年11月21日 星期四
-C++类型概念基础之声明周期修饰？
+C++类型概念基础之名称的作用域
 source/test22_*.cpp
-https://en.cppreference.com/w/cpp/language/storage_duration
+https://en.cppreference.com/w/cpp/language/scope
 
 ### 2024年11月23日 星期日
-C++类型概念基础之CV限定
+C++类型概念基础之声明周期修饰？
 source/test23_*.cpp
+https://en.cppreference.com/w/cpp/language/storage_duration
+
+### 2024年11月25日 星期二
+C++类型概念基础之CV限定
+source/test24_*.cpp
 https://en.cppreference.com/w/cpp/language/cv
 
 ### 不确定
 函数地址
 source/test119_*.cpp
+
+C++类型概念基础之类型分类
+https://en.cppreference.com/w/cpp/language/type
 
 C++类型概念基础之类型综述
 https://en.cppreference.com/w/cpp/language/value_category
@@ -115,3 +123,5 @@ https://en.cppreference.com/w/cpp/language/value_category
 什么是表达式
 
 表达式的初始化
+
+lambda表达式
