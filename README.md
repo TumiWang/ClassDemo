@@ -96,12 +96,12 @@ C++模板篇之模板进阶
 source/test21_*.cpp
 
 ### 2024年11月21日 星期四
-C++类型概念基础之名称的作用域
+C++类型概念基础之标识符的作用域
 source/test22_*.cpp
 https://en.cppreference.com/w/cpp/language/scope
 
 ### 2024年11月23日 星期日
-C++类型概念基础之声明周期修饰？
+C++类型概念基础之存储类型修饰符
 source/test23_*.cpp
 https://en.cppreference.com/w/cpp/language/storage_duration
 
