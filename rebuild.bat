@@ -41,8 +41,16 @@ IF "%1_x" == "_x" (
 )
 
 IF "%2_x" == "_x" (
-    echo 不支持一个参数
-    goto end
+    if NOT EXIST ".\\complex\\%1\\CMakeLists.txt" (
+        echo CMakeLists.txt文件不存在
+        goto end
+    )
+    cmake -B "%BUILD_DIR%" -S  ".\\complex\\%1" -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+    IF %ERRORLEVEL% neq 0 (
+        echo cmake创建项目失败
+        goto end
+    )
+    goto buildsource
 )
 
 IF "%3_x" == "_x" (

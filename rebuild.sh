@@ -18,6 +18,12 @@ if [ $# == 2 ]; then
     cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET=test$1_$2
 elif [ $# == 0 ]; then
     cmake -B "$BUILD_DIR" -S . -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+elif [ $# == 1 ]; then
+    if [ ! -f "./complex/$1/CMakeLists.txt" ]; then
+        echo "\033[31mCMakeLists.txt文件不存在\033[0m"
+        exit 0
+    fi
+    cmake -B "$BUILD_DIR" -S "./complex/$1" -DCMAKE_BUILD_TYPE=$BUILD_TYPE
 else
     echo "\033[31m参数不符合预期\033[0m"
     exit 0
