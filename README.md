@@ -105,7 +105,7 @@ C++类型概念基础之命名空间
 source/test24_*.cpp
 
 ### 2024年11月26日 星期二
-C++类型概念基础之标识符的作用域 这个内容要大改
+C++类型概念基础之变量名的作用域
 source/test22_*.cpp
 https://en.cppreference.com/w/cpp/language/scope
 
