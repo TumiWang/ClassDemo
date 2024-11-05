@@ -110,10 +110,15 @@ source/test22_*.cpp
 https://en.cppreference.com/w/cpp/language/scope
 
 ### 2024年11月28日 星期四
-C++类型概念基础之存储类说明符
-https://en.cppreference.com/w/cpp/language/storage_duration
+C++类型概念基础之特殊作用域
+source/test25_*.cpp
 
 ### 2024年12月01日 星期日
+C++类型概念基础之存储期限
+source/test26_*.cpp
+https://en.cppreference.com/w/cpp/language/storage_duration
+
+### 2024年12月03日 星期二
 C++类型概念基础之CV限定
 https://en.cppreference.com/w/cpp/language/cv
 
@@ -132,3 +137,5 @@ https://en.cppreference.com/w/cpp/language/value_category
 表达式的初始化
 
 lambda表达式
+
+多线程 不同的锁的区别
