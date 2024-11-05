@@ -13,7 +13,7 @@ IF %CODEPAGE% neq 65001 (
 
 CD /d %~dp0
 
-SET SCRIPT_DIR=$CD$
+SET SCRIPT_DIR=%CD%
 SET PRUDOCT_DIR=product
 SET BUILD_DIR=build
 @REM SET VC_VERSION=Visual Studio 16 2019
@@ -32,7 +32,7 @@ IF EXIST "%PRUDOCT_DIR%" (
 )
 
 IF "%1_x" == "_x" (
-    cmake -B "%BUILD_DIR%" -S . -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+    cmake -B "%BUILD_DIR%" -S . -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=%BUILD_TYPE%
     IF %ERRORLEVEL% neq 0 (
         echo cmake创建项目失败
         goto end
@@ -45,7 +45,7 @@ IF "%2_x" == "_x" (
         echo CMakeLists.txt文件不存在
         goto end
     )
-    cmake -B "%BUILD_DIR%" -S  ".\\complex\\%1" -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+    cmake -B "%BUILD_DIR%" -S  ".\\complex\\%1" -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=%BUILD_TYPE%
     IF %ERRORLEVEL% neq 0 (
         echo cmake创建项目失败
         goto end
@@ -54,7 +54,7 @@ IF "%2_x" == "_x" (
 )
 
 IF "%3_x" == "_x" (
-    cmake -B "%BUILD_DIR%" -S . -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DMYTARGET="test%1_%2"
+    cmake -B "%BUILD_DIR%" -S . -G "%VC_VERSION%" -A %ARCH_TYPE% -DCMAKE_BUILD_TYPE=%BUILD_TYPE% -DMYTARGET="test%1_%2"
     IF %ERRORLEVEL% neq 0 (
         echo cmake创建项目失败
         goto end
