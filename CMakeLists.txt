@@ -21,6 +21,9 @@ set(SOURCE_TYPE_NAME .c .cc .cpp)
 
 macro(product_target)
     add_executable(${ARGV0} source/${ARGV0}${ARGV1})
+    if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+        target_link_libraries(${ARGV0} PUBLIC pthread)
+    endif()
     install(TARGETS ${ARGV0})
 endmacro(product_target)
 
