@@ -1,5 +1,4 @@
 #include <iostream>
-#include <mutex>
 #include <thread>
 
 class A final
@@ -27,16 +26,9 @@ int main()
 {
     std::cout << "Main thread id -- " << std::this_thread::get_id() << std::endl;
     std::thread([](){
-        std::cout << "First Work thread id -- " << std::this_thread::get_id() << std::endl;
+        std::cout << "Enter: Work thread id -- " << std::this_thread::get_id() << std::endl;
         a.info();
+        std::cout << "Exit: Work thread id -- " << std::this_thread::get_id() << std::endl;
     }).join();
-    std::thread([](){
-        std::cout << "Second Work thread id -- " << std::this_thread::get_id() << std::endl;
-    }).join();
-    std::thread([](){
-        std::cout << "Third Work thread id -- " << std::this_thread::get_id() << std::endl;
-        a.info();
-    }).join();
-    a.info();
     std::cout << "Main Function exit" << std::endl;
 }
