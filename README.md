@@ -119,7 +119,8 @@ source/test26_*.cpp
 https://en.cppreference.com/w/cpp/language/storage_duration
 
 ### 2024年12月03日 星期二
-C++类型概念基础之CV限定
+C++类型概念基础之CV类型限定符
+source/test27_*.cpp
 https://en.cppreference.com/w/cpp/language/cv
 
 ### 不确定
