@@ -123,6 +123,19 @@ C++类型概念基础之CV类型限定符
 source/test27_*.cpp
 https://en.cppreference.com/w/cpp/language/cv
 
+### 2024年12月05日 星期四
+C++类型概念基础之类型分类
+source/test28_*.cpp
+
+### 2024年12月08日 星期日
+C++类型概念基础之类型分类的用处
+source/test29_*.cpp
+
+### 2024年12月10日 星期二
+return x 和 return (x) 的差别
+小括弧的另类用法
+source/test30_*.cpp
+
 ### 不确定
 函数地址
 source/test119_*.cpp
