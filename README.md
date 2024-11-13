@@ -129,7 +129,7 @@ source/test28_*.cpp
 https://en.cppreference.com/w/cpp/language/type
 
 ### 2024年12月08日 星期日
-C++类型概念基础之NULL和nullptr
+C++类型概念基础之nullptr和NULL的区别
 source/test29_*.cpp
 
 ### 2024年12月10日 星期二
