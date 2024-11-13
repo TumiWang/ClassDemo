@@ -17,6 +17,10 @@ if(MSVC)
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 endif()
 
+# if(${CMAKE_CXX_COMPILER_ID} MATCHES "AppleClang")
+#     add_compile_options(-Wunused)
+# endif()
+
 set(SOURCE_TYPE_NAME .c .cc .cpp)
 
 macro(product_target)

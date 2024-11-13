@@ -126,15 +126,25 @@ https://en.cppreference.com/w/cpp/language/cv
 ### 2024年12月05日 星期四
 C++类型概念基础之类型分类
 source/test28_*.cpp
+https://en.cppreference.com/w/cpp/language/type
 
 ### 2024年12月08日 星期日
-C++类型概念基础之类型分类的用处
+C++类型概念基础之NULL和nullptr
 source/test29_*.cpp
 
 ### 2024年12月10日 星期二
 return x 和 return (x) 的差别
 小括弧的另类用法
 source/test30_*.cpp
+
+### 2024年12月12日 星期四
+C++类型概念基础之类型分类的用处
+模板方向
+source/test31_*.cpp
+
+### 2024年12月15日 星期日
+变量初始化，基础类型
+source/test32_*.cpp
 
 ### 不确定
 函数地址
