@@ -1,24 +1,17 @@
 #include <iostream>
- 
-struct A
-{
-    ~A() { std::cout << "Destruct A" << std::endl; }
-    void info() { std::cout << "Call A::Info" << std::endl; }
-};
 
+int a = 42;
+
+decltype(auto) get_a_1() { return a; }
+
+decltype(auto) get_a_2() { return (a); }
 
 int main()
 {
-    A a;
-    std::cout << "场景一" << std::endl;
-    {
-        decltype(a) temp(a);
-        temp.info();
-    }
-    std::cout << "场景二" << std::endl;
-    {
-        decltype((a)) temp(a);
-        temp.info();
-    }
-    std::cout << "完成" << std::endl;
+    std::cout << get_a_1() << std::endl;
+    std::cout << get_a_2() << std::endl;
+    // get_a_1() = 15;
+    get_a_2() = 15;
+    std::cout << get_a_2() << std::endl;
+    std::cout << get_a_2() << std::endl;
 }
