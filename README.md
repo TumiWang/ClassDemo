@@ -97,54 +97,64 @@ source/test21_*.cpp
 
 ### 2024年11月21日 星期四
 C++类型概念基础之命名空间基础
+壹
 source/test23_*.cpp
 https://en.cppreference.com/w/cpp/language/namespace
 
 ### 2024年11月24日 星期日
 C++类型概念基础之命名空间
+贰
 source/test24_*.cpp
 
 ### 2024年11月26日 星期二
 C++类型概念基础之变量名的作用域
+叁
 source/test22_*.cpp
 https://en.cppreference.com/w/cpp/language/scope
 
 ### 2024年11月28日 星期四
 C++类型概念基础之特殊作用域
+肆
 source/test25_*.cpp
 
 ### 2024年12月01日 星期日
 C++类型概念基础之存储期限
+伍
 source/test26_*.cpp
 https://en.cppreference.com/w/cpp/language/storage_duration
 
 ### 2024年12月03日 星期二
 C++类型概念基础之CV类型限定符
+陆
 source/test27_*.cpp
 https://en.cppreference.com/w/cpp/language/cv
 
 ### 2024年12月05日 星期四
 C++类型概念基础之类型分类
+柒
 source/test28_*.cpp
 https://en.cppreference.com/w/cpp/language/type
 
 ### 2024年12月08日 星期日
 C++类型概念基础之nullptr和NULL的区别
+捌
 source/test29_*.cpp
 
 ### 2024年12月10日 星期二
 C++类型概念基础之小括号()的另类用法
-C++类型概念基础之小括号()的另类用法
+玖
 source/test30_*.cpp
 目前没有使用 test30_4.cpp
 
 ### 2024年12月12日 星期四
 C++类型概念基础之类型分类的用处
+拾
 模板方向
 source/test31_*.cpp
 
 ### 2024年12月15日 星期日
-变量初始化，基础类型
+C++类型概念基础之变量初始化
+拾壹
 source/test32_*.cpp
 
 ### 不确定
