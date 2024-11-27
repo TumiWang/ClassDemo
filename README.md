@@ -152,7 +152,7 @@ C++类型概念基础之成员指针
 source/test31_*.cpp
 
 ### 2024年12月15日 星期日
-C++类型概念基础之this指针可以为nullptr吗?
+C++类型概念基础之nullptr调用会怎么样?
 拾壹
 source/test32_*.cpp
 
