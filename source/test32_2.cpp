@@ -40,12 +40,17 @@ void print_addr(T t, const char* info) {
               << std::endl;
 }
 
+void test() {
+    std::cout << "Call test" << std::endl;
+}
+
 int main()
 {
-    print_addr(&A::f, "A::f  -> ");
-    print_addr(&A::g, "A::g  -> ");
-    print_addr(&A::h, "A::h  -> ");
-    print_addr(&A::i, "A::i  -> ");
+    print_addr(&A::f,  "A::f  -> ");
+    print_addr(&A::g,  "A::g  -> ");
+    print_addr(&A::h,  "A::h  -> ");
+    print_addr(&A::i,  "A::i  -> ");
     print_addr(&A::m_, "A::m_ -> ");
     print_addr(&A::n_, "A::n_ -> ");
+    print_addr(test,   "test  -> ");
 }
