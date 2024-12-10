@@ -6,5 +6,6 @@ constexpr int factorial(int n) {
 
 int main()
 {
-    std::cout << factorial(6) << std::endl;
+    constexpr int a = factorial(6);
+    std::cout << a << std::endl;
 }
