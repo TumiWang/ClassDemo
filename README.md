@@ -63,6 +63,8 @@ source/test12_*.cpp
 聊一聊浮点数的内存使用
 source/test13_*.cpp
 
+## 2024年11月
+
 ### 2024年11月03日 星期日
 C++之整数类型
 source/test14_*.cpp
@@ -116,6 +118,8 @@ https://en.cppreference.com/w/cpp/language/scope
 C++类型概念基础之特殊作用域
 肆
 source/test25_*.cpp
+
+## 2024年12月
 
 ### 2024年12月01日 星期日
 C++类型概念基础之存储期限
@@ -189,6 +193,8 @@ source/test38_*.cpp
 
 ### 2024年12月31日 星期二
 C++中assert和static_assert的区别
+
+## 2025年
 
 ### 2025年01月02日 星期四
 C++的Lambda表达式之初识Lambda
