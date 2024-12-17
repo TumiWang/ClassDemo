@@ -229,13 +229,3 @@ https://en.cppreference.com/w/cpp/language/value_category
 lambda表达式
 
 多线程 不同的锁的区别
-
-# Hugging Face
-
-pip3 install -U huggingface_hub
-
-export HF_ENDPOINT=https://hf-mirror.com
-
-huggingface-cli download --token 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 --resume-download --local-dir-use-symlinks False stabilityai/stable-diffusion-3-medium sd3_medium_incl_clips_t5xxlfp16.safetensors
-
-huggingface-cli download --token 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 --resume-download --local-dir-use-symlinks False stabilityai/stable-diffusion-3-medium sd3_medium_incl_clips_t5xxlfp8.safetensors
